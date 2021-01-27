@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# linkXtractor
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of linkXtractor is to build a tibble of links from a source webpage URL.
+
+## Installation
+
+You can install development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Arf9999/linkXtractor")
+```
+
+## Example
+
+This is a basic example:
+
+```{r example}
+library(linkXtractor)
+example <- linkXtractor:get_links(https://cnn.com)
+head(example, 10)
+## basic example code
+```

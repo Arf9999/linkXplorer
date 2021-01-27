@@ -14,6 +14,7 @@ get_links <- function(url){
   require(stringr)
   require(magrittr)
   require(tidyr)
+  require(readr)
   url_to_parse <- url
   temp_file <- paste0("temp", round(runif(1, min = 1, max = 100000),0),".txt") #generates randomly numbered tempfile name.
     system(command = paste0("lynx \"",url_to_parse,"\" ","-dump -listonly >",temp_file ))
