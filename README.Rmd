@@ -34,9 +34,9 @@ devtools::install_github("Arf9999/linkXtractor")
 
 This is a basic example:
 
-```{r example}
+```{r example, echo=TRUE, message=FALSE}
 library(linkXtractor)
-example <- linkXtractor:get_links(https://cnn.com)
+example <- linkXtractor::get_links("https://cnn.com/")
 head(example, 10)
 ## basic example code
 ```

@@ -26,31 +26,6 @@ This is a basic example:
 ``` r
 library(linkXtractor)
 example <- linkXtractor::get_links("https://cnn.com/")
-#> Note: this function requires an available installation of Lynx browser:
-#> https://lynx.browser.org/
-#> Loading required package: dplyr
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-#> Loading required package: stringr
-#> Loading required package: magrittr
-#> Loading required package: tidyr
-#> 
-#> Attaching package: 'tidyr'
-#> The following object is masked from 'package:magrittr':
-#> 
-#>     extract
-#> Loading required package: readr
-#> 
-#> ── Column specification ────────────────────────────────────────────────────────
-#> cols(
-#>   References = col_character()
-#> )
 head(example, 10)
 #> # A tibble: 10 x 2
 #>    source_url       out_link                                                    
