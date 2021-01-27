@@ -1,7 +1,7 @@
 Package: linkXtractor
 Type: Package
 Title: Get Outlinks From Webpage URL (Title Case)
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person(given = "Andrew",
            family = "Fraser",
            role = c("aut", "cre"),

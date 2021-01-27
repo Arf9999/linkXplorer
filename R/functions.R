@@ -1,7 +1,7 @@
 #'@title Crawl Webpage for all links. Requires installation of lynx Browser
 #'
 #'@description This function returns a tibble of linked URLs from a source URL.
-#'@param url A full URL in the form of a string
+#'@param url A full URL in the form of a string.
 #'@keywords weblinks
 #'@export
 #'@examples

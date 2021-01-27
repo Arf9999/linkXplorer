@@ -7,7 +7,7 @@
 get_links(url)
 }
 \arguments{
-\item{url}{A full URL in the form of a string}
+\item{url}{A full URL in the form of a string.}
 }
 \description{
 This function returns a tibble of linked URLs from a source URL.
